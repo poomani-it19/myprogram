@@ -1,0 +1,22 @@
+#include<stdio.h>
+void main()
+{
+    int i,a[10],n;
+    printf("enter the values of arrays");
+    for(i=0;i<=5;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    
+    printf("enter the position:");
+    scanf("%d",&n);
+    for(i=5;i>=n;i--)
+    {
+        a[i+1]=a[i];
+    }
+    a[n]=6;
+    for(i=0;i<=6;i++)
+    {
+        printf("%d",a[i]);
+    }
+    }
