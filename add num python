@@ -1,0 +1,4 @@
+a=input("enter two numbers")
+b=input("enter three numbers ")
+c=int(a)+int(b)
+print(c)
