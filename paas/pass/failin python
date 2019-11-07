@@ -1,0 +1,13 @@
+a=input("enter the numbers")
+b=input("enter the numbers")
+c=input("enter the numbers")
+d=input("enter the numbers")
+e=input("enter the numbers")
+total=int(a)+int(b)+int(c)+int(d)+int(e)
+avg=total/5
+print('avg {}'.format(avg))
+if avg==100:
+    print('pass')
+else:
+    print('fail')
+    
